@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gráfico de Consumo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/graficos.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Gráfico de Consumo de Energia</h2>
+        <p>Consumo mensal com linha de média destacada:</p>
+        <img src="data:image/png;base64,{{ imagem_base64 }}">
+
+        <h3>Dicas para Economizar Energia</h3>
+        <ul>
+            <li>Desligue aparelhos eletrônicos da tomada quando não estiverem em uso.</li>
+            <li>Troque lâmpadas incandescentes por LED.</li>
+            <li>Utilize o ar-condicionado com moderação e mantenha a manutenção em dia.</li>
+            <li>Evite abrir a geladeira com frequência ou por muito tempo.</li>
+            <li>Lave roupas com a máquina cheia e utilize o modo econômico.</li>
+        </ul>
+    </div>
+</body>
+</html>
