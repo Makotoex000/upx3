@@ -1,4 +1,5 @@
 Calculadora de Consumo Energético
+
 Este projeto é uma calculadora simples de consumo energético mensal, desenvolvida utilizando HTML, CSS, JavaScript e Flask no backend.
 O usuário pode informar os gastos de energia (em kWh) mês a mês e calcular a média automaticamente.
 ______________________________________________________________________________________________________
